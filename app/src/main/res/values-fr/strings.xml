@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335-Final-Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_news">Actualités de l API News</string>
+
+    <string name="news_search">Recherche de nouvelles</string>
+    <string name="news_saved">Nouvelles sauvegardées</string>
+    <string name="news_view_in_browser">Navigateur</string>
+    <string name="news_save">sauver</string>
+    <string name="news_delete">Supprimer</string>
+    <string name="news_error_toast">S il vous plaît entrer le sujet de recherche</string>
+    <string name="news_wait">S il vous plaît, attendez</string>
+    <string name="news_failed_save">Impossible d enregistrer les nouvelles</string>
+    <string name="news_failed_delete">Impossible de supprimer les nouvelles</string>
+    <string name="news_success_save">Article sauvegardé</string>
+    <string name="news_success_delete">Article supprimé</string>
+    <string name="news_hint">Entrez le sujet de nouvelles</string>
+    <string name="help_to_use">Comment utiliser</string>
+    <string name="help_ok">D ACCORD!</string>
+    <string name="news_author">Auteure</string>
+    <string name="news_version">Version</string>
+    <string name="help_1">Dans l écran de recherche, entrez le sujet que vous souhaitez rechercher et appuyez sur le bouton de recherche.</string>
+    <string name="help_2">Cliquez sur les titres des nouvelles pour lire les nouvelles.</string>
+    <string name="help_3">Sur l écran de description, cliquez sur l article de sauvegarde.
+                            Et cliquez sur le bouton supprimer pour supprime</string>
+    <string name="help_4">Cliquez sur le bouton Enregistrer pour sauvegarder les articles..</string>
+    <string name="help">Aidez-moi</string>
+
+
+</resources>
