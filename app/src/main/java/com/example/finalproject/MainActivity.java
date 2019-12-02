@@ -1,5 +1,6 @@
 package com.example.finalproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -48,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }
+
+        if(item.getItemId() == R.id.recipeItem){
+            Intent i = new Intent(MainActivity.this, Recipe.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);

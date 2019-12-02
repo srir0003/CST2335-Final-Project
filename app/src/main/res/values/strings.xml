@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">CST2335-Final-Project</string>
     <string name="action_settings">Settings</string>
+
+    //Recipe strings
+    <string name="help">This is the Recipe Search Engine by Kiranjeet Kaur. Search and save recipes for Chicken and Lasagna!</string>
+    <string name="alert">Choose a dish!</string>
+    <string name="chicken">Chicken</string>
+    <string name="lasagna">Lasagna</string>
+    <string name="snackbar">RECIPE SAVED</string>
+    <string name="toast">Recipes deleted</string>
+    <string name="recipeTV">Recipe Search Engine</string>
+    <string name="recipeHint">Search for a recipe</string>
+    <string name="search">Search!</string>
+    <string name="save">Save recipes!</string>
+    <string name="fav">View saved recipes!</string>
+
+
+
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335-Final-Project</string>
+    <string name="action_settings">Le cadre</string>
+
+    //Recipe strings
+    <string name="help">Voici le moteur de recherche de recettes par Kiranjeet Kaur. Recherchez et enregistrez des recettes de poulet et de lasagne!</string>
+    <string name="alert">Choisissez un plat!</string>
+    <string name="chicken">Poulette</string>
+    <string name="lasagna">Lasagne</string>
+    <string name="snackbar">RECETTE SAUVEE</string>
+    <string name="toast">Recettes supprimées</string>
+    <string name="recipeTV">Moteur de recherche de recettes</string>
+    <string name="recipeHint">Rechercher une recette</string>
+    <string name="search">Chercher!</string>
+    <string name="save">Sauvegarder des recettes!</string>
+    <string name="fav">Voir les recettes sauvegardées!</string>
+
+
+</resources>
