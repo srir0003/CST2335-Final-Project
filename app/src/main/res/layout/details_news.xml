@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/fragTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/fragDesc"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_below="@+id/fragTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="1dp"
+        android:textSize="20sp"/>
+
+
+    <ImageView
+        android:id="@+id/fragImage"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_below="@+id/fragTitle"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/broswer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/fragImage"
+        android:layout_marginTop="292dp"
+        android:text="@string/news_view_in_browser" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/broswer"
+        android:layout_marginTop="16dp"
+        android:text="@string/news_save" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveButton"
+        android:layout_marginTop="8dp"
+        android:text="@string/news_delete" />
+
+
+</RelativeLayout>
